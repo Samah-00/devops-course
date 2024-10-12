@@ -40,8 +40,8 @@ jobs:
             - name: Build and Push Docker Image
               uses: docker/build-push-action@v2
               with:
-                context: .  # where to buld the dockerfile
+                context: .  # where to build the dockerfile
                 push: true  # only build or also push
-                tags: ${{secrets.DOCKER_HUB_USERNAME}}/spring-oot-for-beginners:v1
+                tags: ${{secrets.DOCKER_HUB_USERNAME}}/spring-boot-for-beginners:v1
     
               
