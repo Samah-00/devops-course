@@ -44,4 +44,3 @@ jobs:
                 push: true  # only build or also push
                 tags: ${{secrets.DOCKER_HUB_USERNAME}}/spring-boot-for-beginners:v1
     
-              
